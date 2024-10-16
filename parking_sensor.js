@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const client = mqtt.connect("mqtt://broker.hivemq.com:1883");
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://musajee10122002:omom123@projectcluster.32vnq.mongodb.net/parkingdb', {
+mongoose.connect('mongodb+srv://------------', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(() => {
